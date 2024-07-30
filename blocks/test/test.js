@@ -1,6 +1,7 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 
 export default function decorate(block) {
+    console.log('Test block', block);
   const title = block.querySelector('div:first-child');
   const img = block.querySelector('img');
   const description = block.querySelector('div:nth-child(3)');
