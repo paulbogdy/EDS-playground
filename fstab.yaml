@@ -1,5 +1,5 @@
 mountpoints:
   /:
-      url: https://sidewalk.live/projection-hlx/aem-sites-engineering/wknd/gw/vvvv/gw/mt3
+      url: https://www.sidewalk.live/projection-hlx/aem-sites-engineering/wknd/gw/eds/home/page1
       type: markup
       suffix: ".md"
