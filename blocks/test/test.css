@@ -1,0 +1,70 @@
+.test > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test .test-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid var(--dark-color);
+    background-color: var(--background-color);
+    margin-bottom: 16px;
+}
+
+.test .test-card > div {
+    margin: 16px;
+}
+
+.test .test-card-image {
+    width: 50%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.test .test-card-body {
+    width: 50%;
+}
+
+.test .test-card > div:first-child {
+    margin-top: 0;
+}
+
+.test .test-card > div:last-child {
+    align-self: flex-end;
+}
+
+.test .test-card-button {
+    padding: 10px 20px;
+    background-color: var(--dark-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+.test .test-card-button:hover {
+    background-color: white;
+    color: var(--dark-color);
+}
+
+@media (max-width: 600px) {
+    .test .test-card {
+        flex-direction: column;
+    }
+
+    .test .test-card-image,
+    .test .test-card-body {
+        width: 100%;
+    }
+}
