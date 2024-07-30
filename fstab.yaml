@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/1TqaYer3SE16So_Wn6YRpmF3sFTm4MnC1?usp=sharing
+  /:
+      url: https://www.sidewalk.live/projection-hlx/aem-sites-engineering/wknd/gw/eds/home/page1
+      type: markup
+      suffix: ".md"
